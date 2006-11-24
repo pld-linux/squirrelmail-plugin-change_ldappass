@@ -24,13 +24,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This is a Squirrelmail plugin to change a users password which is
 stored in an LDAP database (in a posixAccount objectClass) and
-optionally to syncronise the password change in samba's smbpasswd
+optionally to synchronise the password change in samba's smbpasswd
 (encrypted password) file.
 
 %description -l pl
 Ten pakiet zawiera wtyczkê do zmiany hase³ u¿ytkowników trzymanych w
-bazie LDAP (dla objectClass posixAccount) i opcjonalnie synchronizuje
-zmianê w pliku smbpasswd z pakietu samba.
+bazie LDAP (dla objectClass posixAccount) i opcjonalnie
+synchronizowania zmian w pliku smbpasswd z pakietu samba.
 
 %prep
 %setup -q -n %{_plugin}
