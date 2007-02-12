@@ -4,7 +4,7 @@
 %define		_version_rpm %{_plugin_version}_%{_squirrel_version_required}
 %define		_version_tgz %{_plugin_version}-%{_squirrel_version_required}
 Summary:	A squirrel interface to change passwords
-Summary(pl):	WiewiÛrczy interfejs do zmiany hase≥
+Summary(pl.UTF-8):   Wiewi√≥rczy interfejs do zmiany hase≈Ç
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	%{_plugin_version}_%{_squirrel_version_required}
 Release:	1
@@ -27,8 +27,8 @@ stored in an LDAP database (in a posixAccount objectClass) and
 optionally to synchronise the password change in samba's smbpasswd
 (encrypted password) file.
 
-%description -l pl
-Ten pakiet zawiera wtyczkÍ do zmiany hase≥ uøytkownikÛw trzymanych w
+%description -l pl.UTF-8
+Ten pakiet zawiera wtyczkƒô do zmiany hase≈Ç u≈ºytkownik√≥w trzymanych w
 bazie LDAP (dla objectClass posixAccount) i opcjonalnie
 synchronizowania zmian w pliku smbpasswd z pakietu samba.
 
