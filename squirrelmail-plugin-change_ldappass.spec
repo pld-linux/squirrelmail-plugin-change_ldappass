@@ -4,7 +4,7 @@
 %define		_version_rpm %{_plugin_version}_%{_squirrel_version_required}
 %define		_version_tgz %{_plugin_version}-%{_squirrel_version_required}
 Summary:	A squirrel interface to change passwords
-Summary(pl.UTF-8):   Wiewiórczy interfejs do zmiany haseł
+Summary(pl.UTF-8):	Wiewiórczy interfejs do zmiany haseł
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	%{_plugin_version}_%{_squirrel_version_required}
 Release:	1
